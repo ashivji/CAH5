@@ -25,7 +25,9 @@
     <object class="WED_Select" id="2" parent_id="1">
       <children/>
       <hierarchy name="selection"/>
-      <selection/>
+      <selection>
+        <sel id="102"/>
+      </selection>
     </object>
     <object class="WED_Runway" id="18" parent_id="11">
       <children>
@@ -109,6 +111,7 @@
     </object>
     <object class="WED_Airport" id="5" parent_id="4">
       <children>
+        <child id="102"/>
         <child id="75"/>
         <child id="26"/>
         <child id="24"/>
@@ -331,22 +334,28 @@
       <point heading="143.39" latitude="55.121897438" longitude="-125.614100500"/>
       <obj_placement custom_msl="0" msl="0.0" resource="lib/cars/car.obj" show_level="1 Default"/>
     </object>
+    <object class="WED_Windsock" id="102" parent_id="5">
+      <children/>
+      <hierarchy hidden="0" locked="0" name="New Windsock 22"/>
+      <point latitude="55.121998436" longitude="-125.615611352"/>
+      <windsock lit="0"/>
+    </object>
   </objects>
   <prefs>
     <pref name="PropertyPane0/Closed"/>
     <pref name="doc/export_target" value="5"/>
     <pref name="doc/xml_compatibility" value="107"/>
-    <pref name="map/east" value="-125.603936"/>
+    <pref name="map/east" value="-125.599404"/>
     <pref name="map/navaid_map_vis" value="0"/>
-    <pref name="map/north" value="55.125404"/>
+    <pref name="map/north" value="55.127753"/>
     <pref name="map/obj_density" value="6"/>
     <pref name="map/pavement_alpha" value="4"/>
     <pref name="map/preview_vis" value="1"/>
     <pref name="map/real_lines_vis" value="1"/>
     <pref name="map/slippy_vis" value="1"/>
-    <pref name="map/south" value="55.114783"/>
+    <pref name="map/south" value="55.112459"/>
     <pref name="map/vertices_vis" value="1"/>
-    <pref name="map/west" value="-125.620995"/>
+    <pref name="map/west" value="-125.623969"/>
     <pref name="map/world_map_vis" value="1"/>
     <pref name="map_Airport Beacon_Kind" value="69"/>
     <pref name="map_Boundary_.Markings" value=""/>
